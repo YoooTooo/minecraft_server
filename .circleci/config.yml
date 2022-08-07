@@ -18,6 +18,9 @@ jobs:
       - checkout
       # CircleCI に登録した秘密鍵を呼び出す
       - add_ssh_keys:
+          fingerprints:
+            # CircleCI上でSSHキー登録を行った際に作成されるfingerprintsを記入！！
+            - 87:2f:53:7a:10:6b:89:f4:76:30:44:27:71:6f:4d:85
       # CircleCI に登録した環境変数を使って SSH
       - run:
           name: deploy
