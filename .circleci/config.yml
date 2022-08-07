@@ -1,4 +1,4 @@
-version: 2.1
+version: 2
 
 jobs:
   # build ジョブ: CircleCI 上で Docker コンテナを作成してテストする
