@@ -30,11 +30,4 @@ workflows:
     # build ジョブと deploy ジョブを登録する
     jobs:
       - build
-      - deploy:
-          requires:
-            # 依存性あるから deploy ジョブより先に build ジョブを実行してね、という命令
-            - build
-          # main ブランチに push された場合のみ deploy ジョブを実行する
-          filters:
-            branches:
-              only: main
+      - deploy
