@@ -1,2 +1,1 @@
-# minecraft_server
-MIneCraftのserver側
+初回のgit cloneは手動
