@@ -13,7 +13,7 @@ jobs:
   # deploy ジョブ: EC2 に SSH 接続して、デプロイを実行する
   deploy:
     machine:
-      image: cimg/base:2021.04
+      image: circleci/classic:201707-01
     steps:
       - checkout
       # CircleCI に登録した秘密鍵を呼び出す
