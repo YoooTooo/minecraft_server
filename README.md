@@ -1,5 +1,8 @@
 初回のEC2 への git cloneは手動
 
+とりあえずここ
+https://qiita.com/konuma1022/items/986eb58d4b94bef0c0a5
+
 CIRCLE CIのプロジェクトに以下の設定をしなければならない
 
 environments variableにて、
